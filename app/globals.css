@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --azul-primary: #9FCC2E;
+  --azul-secondary: #6B8E23;
+  --azul-accent: #8FBC8F;
+  --azul-light: #F7FDE8;
+  --azul-dark: #556B2F;
+  --azul-gradient: linear-gradient(135deg, #9FCC2E 0%, #6B8E23 100%);
+  --azul-gradient-warm: linear-gradient(135deg, #9FCC2E 0%, #8FBC8F 100%);
+}
+
+@theme inline {
+  --color-azul-primary: var(--azul-primary);
+  --color-azul-secondary: var(--azul-secondary);
+  --color-azul-accent: var(--azul-accent);
+  --color-azul-light: var(--azul-light);
+  --color-azul-dark: var(--azul-dark);
+  --background: var(--azul-light);
+  --foreground: #1F2937;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--azul-light);
+  color: var(--foreground);
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-slideInLeft {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px -12px rgba(59, 130, 246, 0.25);
+}
+
+.btn-primary {
+  background: var(--azul-gradient);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.4);
+}
+
+.gradient-text {
+  background: var(--azul-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
