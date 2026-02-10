@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AZUL HOMES - Beautiful Shortlet Rentals",
+  title: "GIDADO HOMES - Beautiful Shortlet Rentals",
   description: "Discover and book beautiful shortlet accommodations with AZUL HOMES. Experience luxury, comfort, and style.",
 };
 
