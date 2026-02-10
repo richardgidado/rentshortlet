@@ -45,7 +45,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold gradient-text mb-4">AZUL HOMES</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">GIDADO HOMES</h3>
             <p className="text-slate-400">Your trusted partner for beautiful shortlet accommodations worldwide.</p>
           </div>
           <div>
@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-slate-700 mt-12 pt-8 text-center text-slate-400">
-          <p>&copy; 2024 AZUL HOMES. All rights reserved.</p>
+          <p>&copy; 2024 GIDADO HOMES. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -67,7 +67,7 @@ export default function HeroSection() {
             <span className="block">from Home</span>
           </h1>
           <p className="text-xl text-white/90 mb-12 max-w-3xl mx-auto drop-shadow-md">
-            Discover beautiful shortlet accommodations with <span className='gradient-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent font-semibold'>AZUL HOMES. </span>
+            Discover beautiful shortlet accommodations with <span className='gradient-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent font-semibold'>GIDADO HOMES. </span>
             Experience luxury, comfort, and style in handpicked locations worldwide.
           </p>
         </div>

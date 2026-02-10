@@ -13,7 +13,7 @@ export default function AboutSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-            About AZUL HOMES
+            About GIDADO HOMES
           </h2>
         </div>
         
@@ -23,7 +23,7 @@ export default function AboutSection() {
               Your Gateway to Extraordinary Stays
             </h3>
             <p className="text-lg text-slate-600 mb-6">
-              At &nbsp; <span className='gradient-text'>AZUL HOMES </span>, we believe that every journey deserves an exceptional home base. 
+              At &nbsp; <span className='gradient-text'>GIDADO HOMES </span>, we believe that every journey deserves an exceptional home base. 
               Our carefully curated collection of shortlet accommodations ensures that whether 
               you're traveling for business or leisure, you'll find a perfect space that feels 
               just like home.
